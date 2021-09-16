@@ -1,0 +1,16 @@
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.exe
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.deps.json
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.runtimeconfig.json
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.runtimeconfig.dev.json
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.dll
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\ref\Trie.dll
+C:\Users\roger\Repositories\data-structures\Trie\bin\Debug\net5.0\Trie.pdb
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.csproj.AssemblyReference.cache
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.AssemblyInfoInputs.cache
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.AssemblyInfo.cs
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.csproj.CoreCompileInputs.cache
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.dll
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\ref\Trie.dll
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.pdb
+C:\Users\roger\Repositories\data-structures\Trie\obj\Debug\net5.0\Trie.genruntimeconfig.cache
