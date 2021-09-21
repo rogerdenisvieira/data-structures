@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roger\\Repositories\\data-structures\\BinarySearchTree\\BinarySearchTree.csproj": {}
+    "C:\\Users\\roger\\Repositories\\data-structures\\FactorialRecursion\\FactorialRecursion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roger\\Repositories\\data-structures\\BinarySearchTree\\BinarySearchTree.csproj": {
+    "C:\\Users\\roger\\Repositories\\data-structures\\FactorialRecursion\\FactorialRecursion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Repositories\\data-structures\\BinarySearchTree\\BinarySearchTree.csproj",
-        "projectName": "BinarySearchTree",
-        "projectPath": "C:\\Users\\roger\\Repositories\\data-structures\\BinarySearchTree\\BinarySearchTree.csproj",
+        "projectUniqueName": "C:\\Users\\roger\\Repositories\\data-structures\\FactorialRecursion\\FactorialRecursion.csproj",
+        "projectName": "FactorialRecursion",
+        "projectPath": "C:\\Users\\roger\\Repositories\\data-structures\\FactorialRecursion\\FactorialRecursion.csproj",
         "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roger\\Repositories\\data-structures\\BinarySearchTree\\obj\\",
+        "outputPath": "C:\\Users\\roger\\Repositories\\data-structures\\FactorialRecursion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
