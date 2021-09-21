@@ -11,15 +11,14 @@ namespace FactorialRecursion
             int partialValue = value;
 
             // early return
-            if (value <= 0)
+            if (value == 0)
             {
-                return 0;
+                return 1;
             }
 
-            Console.WriteLine(value);
-            partialValue = Calculate(value-1);
+            Console.WriteLine(value);            
 
-            return value + partialValue;
+            return value * Calculate(value-1);
         }
 
     }

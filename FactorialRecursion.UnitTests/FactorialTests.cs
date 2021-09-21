@@ -26,7 +26,7 @@ namespace FactorialRecursion.UnitTests
         {
             var result = factorialRecursion.Calculate(5);
 
-            Assert.AreEqual(15, result);
+            Assert.AreEqual(120, result);
         }
 
         [Test]
