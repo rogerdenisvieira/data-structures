@@ -5,6 +5,7 @@ namespace BinarySearchTree
     public class BinarySearchTree
     {
         public Node Root { get; set; }
+        
 
 
         public bool Add(int value)
@@ -112,7 +113,63 @@ namespace BinarySearchTree
 
         private Node Find(int value, Node parent)
         {
-            throw new NotImplementedException();
+            if (parent != null)
+            {
+                if (value == parent.Data)
+                {
+                    return parent;
+                }
+
+                if (value < parent.Data)
+                {
+                    return Find(value, parent.LeftNode);
+                }
+                else
+                {
+                    return Find(value, parent.RightNode);
+                }
+            }
+            return null;
+        }
+
+        public int GetTreeDepth()
+        {
+            return this.GetTreeDepth(this.Root);
+        }
+
+        public int GetTreeDepth(Node node)
+        {
+            return node == null ? 0 : Math.Max(GetTreeDepth(node.LeftNode), GetTreeDepth(node.RightNode)) + 1;
+        }
+
+        public void TraversePreOrder(Node node)
+        {
+            if (node != null)
+            {
+                Console.Write(node.Data + " ");
+                TraversePreOrder(node.LeftNode);
+                TraversePreOrder(node.RightNode);
+            }
+        }
+
+        public void TraverseInOrder(Node node)
+        {
+            if (node != null)
+            {
+                TraverseInOrder(node.LeftNode);
+                Console.Write(node.Data + " ");
+                TraverseInOrder(node.RightNode);
+            }
+        }
+
+        public void TraversePostOrder(Node node)
+        {
+            if (node != null)
+            {
+                TraversePostOrder(node.LeftNode);
+                TraversePostOrder(node.RightNode);
+                Console.Write(node.Data + " ");
+            }
         }
 
     }
