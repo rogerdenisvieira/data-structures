@@ -12,8 +12,6 @@ namespace Quicksort
             int j = end != 0 ? end : items.Length - 1;
 
             int pivot = items[(begin + end) / 2];
-            int aux = 0;
-
             while (i <= j )
             {
                 while (items[i] < pivot && i < end)
@@ -28,7 +26,7 @@ namespace Quicksort
 
                 if (i <= j)
                 {
-                    aux = items[i];
+                    int aux = items[i];
                     items[i] = items[j];
                     items[j] = aux;
                     i++;
